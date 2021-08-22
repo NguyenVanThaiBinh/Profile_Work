@@ -94,6 +94,15 @@
     transform: translateZ(-12px) rotateX(-90deg);
 }
 
+.codegym {
+    border: 2px solid #ff992b;
+    border-radius: 62%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 .timeline {
     border-left: 2px solid #e6e9ed;
     padding: 1rem 0;
@@ -170,6 +179,18 @@
 
 .timeline-card-end:after {
     background-color: #ff0000;
+}
+
+.timeline-card-ends {
+    border-left-color: #ff992b;
+}
+
+.timeline-card-ends:before {
+    border-color: #ff992b;
+}
+
+.timeline-card-ends:after {
+    background-color: #ff992b;
 }
 
 html {
