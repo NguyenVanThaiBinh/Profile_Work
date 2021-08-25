@@ -6,6 +6,18 @@
 
 /* Timeline custom component */
 
+.avata_zoom:hover {
+    transform: scale(1.9);
+}
+
+.avata_zoom:hover ::after {
+    content: attr("AAAA");
+}
+
+.avata_cv {
+    transition: transform 1s !important;
+}
+
 .zoom_img :hover {
     transform: scale(2);
 }
