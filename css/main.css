@@ -6,12 +6,32 @@
 
 /* Timeline custom component */
 
-.avata_zoom:hover {
-    transform: scale(1.9);
+@media only screen and (max-width: 600px) {
+    #ava_msg {
+        margin-left: 8em;
+    }
+    #myBtn {
+        font-size: 12px !important;
+    }
+    #github {
+        margin-left: 0em !important;
+    }
 }
 
-.avata_zoom:hover ::after {
-    content: attr("AAAA");
+.avata_zoom:hover {
+    transform: scale(1.8);
+}
+
+.avata_zoom2:hover {
+    transform: scale(1.3);
+}
+
+.msg_hover {
+    font-size: 18px;
+    font-family: "Lucida Console";
+    display: none;
+    margin-left: 17em;
+    color: black;
 }
 
 .avata_cv {
