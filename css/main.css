@@ -19,7 +19,7 @@
 }
 
 .avata_zoom:hover {
-    transform: scale(1.8);
+    transform: scale(1.4);
 }
 
 .avata_zoom2:hover {
@@ -39,11 +39,11 @@
 }
 
 .zoom_img :hover {
-    transform: scale(2);
+    transform: scale(1.5);
 }
 
 .zoom_imgs :hover {
-    transform: scale(2);
+    transform: scale(1.5);
 }
 
 .img_style {

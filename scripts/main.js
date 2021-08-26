@@ -18,7 +18,7 @@ $(document).ready(function() {
 
 $(".avata_zoom").hover(
     function() {
-        $("#ava_msg").css("display", "block");
+        $("#avata_cv").attr("title", "That better?");
     },
     function() {
         // change to any color that was previously used.
