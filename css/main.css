@@ -100,7 +100,7 @@
 .link-page1:before,
 .link-page1:after {
     position: absolute;
-    content: "ベトナム語";
+    content: "英語";
     height: 30px;
     width: 180px;
     display: flex;
