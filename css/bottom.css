@@ -39,77 +39,16 @@
 
 .link-page1:before,
 .link-page1:after {
-  position: absolute;
   content: "英語";
-  height: 30px;
-  width: 180px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 5px solid #7a7b7d;
-  box-sizing: border-box;
-  border-radius: 5px;
-}
-
-.link-page1:before {
-  color: #fff;
-  background: #7a7b7d;
-  transform: rotateY(0deg) translateZ(12px);
-}
-
-.link-page1:after {
-  color: #000;
-  transform: rotateX(90deg) translateZ(12px);
-}
-
-.link-page1:hover {
-  transform: translateZ(-12px) rotateX(-90deg);
-}
-
-.link-page1 {
-  font-size: 14px;
-  letter-spacing: 1px;
-  transform-style: preserve-3d;
-  transform: translateZ(-12px);
-  transition: transform 0.25s;
 }
 
 /* TODO: Direct to old page  */
 
 .old-page:before,
 .old-page:after {
-  position: absolute;
-  content: "Old CV";
   height: 30px;
-  width: 180px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 5px solid #7a7b7d;
-  box-sizing: border-box;
-  border-radius: 5px;
-}
-.old-page {
-  font-size: 14px;
-  letter-spacing: 1px;
-  transform-style: preserve-3d;
-  transform: translateZ(-12px);
-  transition: transform 0.25s;
-}
-
-.old-page:before {
-  color: #fff;
-  background: #7a7b7d;
-  transform: rotateY(0deg) translateZ(12px);
-}
-
-.old-page:after {
-  color: #000;
-  transform: rotateX(90deg) translateZ(12px);
-}
-
-.old-page:hover {
-  transform: translateZ(-12px) rotateX(-90deg);
+  width: 120px;
+  content: "Old CV";
 }
 
 /* TODO: Email Bottom  */
