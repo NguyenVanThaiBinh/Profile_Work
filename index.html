@@ -13,8 +13,8 @@
       <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;family=Roboto:wght@300;400;500;700&amp;display=swap"/>
     </noscript>
     <link href="css/font-awesome/css/all.min.css?ver=1.2.0" rel="stylesheet">
-    <link href="css/bootstrap.min.css?ver=1.2.0" rel="stylesheet">
-    <link href="css/aos.css?ver=1.2.0" rel="stylesheet">
+    <link href="css/base_css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/base_css/aos.css" rel="stylesheet">
     <link href="css/main.css?ver=1.2.0" rel="stylesheet">
     <link rel="icon" href="world-grid.png">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -340,7 +340,8 @@
                 <div class="footer-nav">
                     <nav role="navigation">
                         <ul class="nav justify-content-center">
-
+                            <li class="nav-item"><span class="changePage  "><a class="old-page " target="_blank" href="japanese.html"></a></span>
+                            </li>
                             <li class="nav-item"><a class="nav-link" target="_blank" href="https://www.youtube.com/channel/UCR20PXMWn1iaBMof9YF-OZg" title="Instagram"><i class="fab fa-youtube"></i><span class="menu-title sr-only">Youtube</span></a>
                             </li>
                             <li class="nav-item"><a class="nav-link" target="_blank" href="https://github.com/NguyenVanThaiBinh?tab=repositories" title="Github"><i class="fab fa-github"></i><span class="menu-title sr-only">Github</span></a>
@@ -351,14 +352,14 @@
             </div>
 
         </div>
-        <a id="myBtn" title="Liên lạc với tôi" target="_blank" href="https://mail.google.com/mail/?view=cm&fs=1&to=nguyenvanthaibinh2210@gmail.com"><i class="fas fa-envelope fa-2x"></i></a>
+        <a id="emailBtn" title="Liên lạc với tôi" target="_blank" href="https://mail.google.com/mail/?view=cm&fs=1&to=nguyenvanthaibinh2210@gmail.com"><i class="fas fa-envelope fa-2x"></i></a>
     </footer>
     <script src="scripts/bootstrap.bundle.min.js?ver=1.2.0"></script>
     <script src="scripts/aos.js?ver=1.2.0"></script>
     <script src="scripts/main.js?ver=1.2.0"></script>
     <script>
         //Get the button
-        var mybutton = document.getElementById("myBtn");
+        var mybutton = document.getElementById("emailBtn");
 
         // When the user scrolls down 20px from the top of the document, show the button
         window.onscroll = function() {
