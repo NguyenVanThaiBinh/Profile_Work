@@ -16,19 +16,18 @@
 }
 
 .zoom_img :hover {
+  transition: transform 1s;
   border-radius: 20px;
   background-image: none;
-  transform: scale(1.5);
+  transform: scale(1.2);
 }
 
 .img_style {
-  /* transition: transform 1s; */
+  margin: 3em;
   border-radius: 20px;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 106%;
-  height: 56%;
+  width: 87%;
+  height: 64%;
 }
 
 /* TODO: projectVideo effect  */

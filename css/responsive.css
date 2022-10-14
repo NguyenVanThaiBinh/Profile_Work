@@ -37,6 +37,16 @@
     margin-left: 0;
   }
 }
+/*TODO: Large desktop */
+@media (min-width: 1200px) {
+  .container,
+  .container-sm,
+  .container-md,
+  .container-lg,
+  .container-xl {
+    max-width: 1220px;
+  }
+}
 
 /*TODO: ----------- Print ----------- */
 @media print {
@@ -44,7 +54,7 @@
     background-color: #fff;
   }
   .container {
-    margin: auto  60 em!important;
+    margin: auto 60 em !important;
     width: auto;
     max-width: 100%;
     padding: 0;
