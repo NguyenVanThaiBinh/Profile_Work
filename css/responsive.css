@@ -44,6 +44,7 @@
     background-color: #fff;
   }
   .container {
+    margin: auto  60 em!important;
     width: auto;
     max-width: 100%;
     padding: 0;
