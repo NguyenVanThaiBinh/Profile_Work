@@ -10,6 +10,15 @@
   color: #ff992b;
 }
 
+.moreInfo {
+  text-align: center;
+  margin-top: -5em;
+}
+.vaccineTitle {
+  margin-left: -11em;
+  text-align: center;
+}
+
 .timeline {
   border-left: 2px solid #e6e9ed;
   padding: 1rem 0;
