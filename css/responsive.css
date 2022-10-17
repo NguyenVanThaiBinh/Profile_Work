@@ -12,7 +12,7 @@
 }
 
 /*TODO: ----------- iPhone 11 or 10----------- */
-@media only screen and (max-width: 391px) {
+@media only screen and (max-width: 429px) {
   .site-title {
     background-color: rgb(221 237 255);
   }
