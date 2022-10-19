@@ -23,7 +23,7 @@
 .link-page:before {
   color: #fff;
   background: #7a7b7d;
-  transform: rotateY(0deg) translateZ(12px);
+  transform: rotateY(1deg) translateZ(12px);
 }
 
 .link-page:after {
