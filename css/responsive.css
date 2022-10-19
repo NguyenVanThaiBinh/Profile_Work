@@ -54,6 +54,37 @@
   }
 }
 
+/*TODO: ----------- iPhone Rotate----------- */
+@media only screen and (max-width: 896px) and (orientation: landscape) {
+  .offset-md-1 {
+    margin-top: 3em;
+    margin-left: -2.66667%;
+  }
+  .mb-2 {
+    font-size: 13.6px;
+  }
+  .col-sm-6 {
+    width: 100%;
+  }
+  .col-md-9 {
+    width: 93%;
+  }
+  div.h5.mb-1 {
+    font-size: 1.2em !important;
+  }
+  .moreInfo {
+    text-align: center;
+    margin-top: -2em !important;
+  }
+  .img_snow {
+    margin: 0em !important;
+    border-radius: 20px;
+    display: block;
+    width: 114% !important;
+    height: 67% !important;
+  }
+}
+
 /*TODO: ----------- ??? ----------- */
 @media (min-width: 48em) {
   .site-title {
