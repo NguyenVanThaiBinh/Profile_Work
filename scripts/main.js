@@ -21,6 +21,9 @@ $(".avatar_zoom").hover(
     $("#avatar_cv").attr("title", "That better?");
   },
   function () {
+    $("#uyen").attr("title", "Mệ nội khó ưa!!!");
+  },
+  function () {
     // change to any color that was previously used.
     $("#ava_msg").css("display", "none");
   }
