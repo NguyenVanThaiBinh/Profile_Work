@@ -22,13 +22,8 @@
   transform: scale(1.2);
 }
 
-.img_style {
-  margin: 3em;
-  border-radius: 20px;
-  display: block;
-  width: 87%;
-  height: 64%;
-}
+
+
 
 /* TODO: projectVideo effect  */
 .thevideo {

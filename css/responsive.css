@@ -42,6 +42,11 @@
     width: 104% !important;
     height: 113% !important;
   }
+  .img_snow {
+    margin: auto !important;
+    width: 96% !important;
+    height: 109% !important;
+  }
   .moreInfo {
     margin-top: 2em !important;
     font-size: 11px !important;
@@ -104,6 +109,23 @@
   .container-lg,
   .container-xl {
     max-width: 1220px;
+  }
+  .img_style {
+    position: absolute;
+    border-radius: 20px;
+    top: 29%;
+    left: 50%;
+    width: 47%;
+    height: 45%;
+  }
+  .img_snow {
+    border-radius: 20px;
+    margin-left: 4em;
+    margin-top: -1.5em;
+    position: absolute;
+    left: 50%;
+    width: 34%;
+    height: 92%;
   }
 }
 
