@@ -38,11 +38,13 @@
   }
 
   .img_style {
+    border-radius: 20px;
     margin: auto !important;
     width: 104% !important;
     height: 113% !important;
   }
   .img_snow {
+    border-radius: 20px;
     margin: auto !important;
     width: 96% !important;
     height: 109% !important;
@@ -54,6 +56,12 @@
   .vaccineTitle {
     margin-left: 0em !important;
     font-size: 14px !important;
+  }
+  .img_pet {
+    border-radius: 20px;
+    margin: auto !important;
+    width: 100% !important;
+    height: 110% !important;
   }
 }
 
@@ -77,14 +85,27 @@
   }
   .moreInfo {
     text-align: center;
-    margin-top: -2em !important;
+    margin-top: 2.5em !important;
   }
   .img_snow {
     margin: 0em !important;
     border-radius: 20px;
-    display: block;
-    width: 114% !important;
-    height: 67% !important;
+
+    width: 98% !important;
+    height: 83% !important;
+  }
+  .img_style {
+    border-radius: 20px;
+    margin: auto !important;
+    margin-bottom: 2em;
+    width: 100% !important;
+    height: 113% !important;
+  }
+  .img_pet {
+    border-radius: 20px;
+    margin: auto !important;
+    width: 100% !important;
+    height: 110% !important;
   }
 }
 
@@ -117,6 +138,13 @@
     left: 50%;
     width: 47%;
     height: 45%;
+  }
+  .img_pet {
+    position: absolute;
+    border-radius: 20px;
+    left: 50%;
+    width: 45%;
+    height: 71%;
   }
   .img_snow {
     border-radius: 20px;
