@@ -63,6 +63,12 @@
     width: 100% !important;
     height: 110% !important;
   }
+  .nickname_kata {
+    font-size: 15px !important;
+  }
+  .nickname_ja {
+    font-size: 25px !important;
+  }
 }
 
 /*TODO: ----------- iPhone Rotate----------- */
@@ -106,6 +112,12 @@
     margin: auto !important;
     width: 100% !important;
     height: 110% !important;
+  }
+  .nickname_kata {
+    font-size: 16px !important;
+  }
+  .nickname_ja {
+    font-size: 23px !important;
   }
 }
 
