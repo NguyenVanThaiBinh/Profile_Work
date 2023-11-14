@@ -17,19 +17,9 @@
 
 .zoom_img :hover {
   transition: transform 1s;
-  border-radius: 20px;
+
   background-image: none;
   transform: scale(1.2);
-}
-
-/* TODO: projectVideo effect  */
-.thevideo {
-  background-image: url("https://i.ibb.co/th5ybQB/BLOG-PROJECT.png");
-  border-radius: 20px;
-  transition: transform 1s;
-  width: 110%;
-  background-size: cover;
-  height: 105%;
 }
 
 .changePage {
