@@ -393,7 +393,6 @@
     <script>
         //Get the button
         var mybutton = document.getElementById("emailBtn");
-
         // When the user scrolls down 20px from the top of the document, show the button
         window.onscroll = function() {
             scrollFunction()
@@ -406,6 +405,30 @@
                 mybutton.style.display = "none";
             }
         }
+
+        //Check if cloud fare API not work, redirect to other page.
+        async function fetchDataAndRedirectIfNotFound() {
+        try {
+        const response = await fetch("https://nguyenvanthaibinh.com/css/main.css");
+
+        if (!response.ok) {
+        if (response.status === 404) {
+        // Redirect to the not found page
+        window.location.href = "https://nguyenvanthaibinh.github.io/Profile";
+        return; // Stop further execution
+        } else {
+        // Handle other errors appropriately
+        throw new Error(`API request failed with status ${response.status}`);
+        }
+        }
+        } catch (error) {
+        console.error("Error fetching data:", error);
+        }
+        }
+        
+        fetchDataAndRedirectIfNotFound();
+
+
     </script>
 </body>
 
