@@ -15,7 +15,7 @@
   margin-top: -5em;
 }
 .vaccineTitle {
-  margin-left: -11em;
+  margin-left: -8em;
   text-align: center;
 }
 
@@ -159,4 +159,8 @@ footer a:not(.nav-link) {
   border-bottom: 1px dashed;
   text-decoration: none;
   cursor: pointer;
+}
+
+.nickname_kata {
+  font-size: 27px;
 }

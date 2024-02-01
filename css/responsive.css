@@ -36,13 +36,18 @@
     width: 16px !important;
     left: -16px !important;
   }
-  #mitani_img {
-    width: 180px;
-  }
+
   .img_style {
+   
     margin: auto !important;
     width: 104% !important;
     height: 113% !important;
+  }
+  .img_snow {
+   
+    margin: auto !important;
+    width: 96% !important;
+    height: 109% !important;
   }
   .moreInfo {
     margin-top: 2em !important;
@@ -51,6 +56,18 @@
   .vaccineTitle {
     margin-left: 0em !important;
     font-size: 14px !important;
+  }
+  .img_pet {
+   
+    margin: auto !important;
+    width: 100% !important;
+    height: 110% !important;
+  }
+  .nickname_kata {
+    font-size: 15px !important;
+  }
+  .nickname_ja {
+    font-size: 25px !important;
   }
 }
 
@@ -74,14 +91,33 @@
   }
   .moreInfo {
     text-align: center;
-    margin-top: -2em !important;
+    margin-top: 2.5em !important;
   }
   .img_snow {
     margin: 0em !important;
-    border-radius: 20px;
-    display: block;
-    width: 114% !important;
-    height: 67% !important;
+   
+
+    width: 98% !important;
+    height: 83% !important;
+  }
+  .img_style {
+    
+    margin: auto !important;
+    margin-bottom: 2em;
+    width: 100% !important;
+    height: 113% !important;
+  }
+  .img_pet {
+    
+    margin: auto !important;
+    width: 100% !important;
+    height: 110% !important;
+  }
+  .nickname_kata {
+    font-size: 16px !important;
+  }
+  .nickname_ja {
+    font-size: 23px !important;
   }
 }
 
@@ -106,6 +142,30 @@
   .container-lg,
   .container-xl {
     max-width: 1220px;
+  }
+  .img_style {
+    position: absolute;
+   
+    top: 29%;
+    left: 50%;
+    width: 47%;
+    height: 45%;
+  }
+  .img_pet {
+    position: absolute;
+    
+    left: 50%;
+    width: 45%;
+    height: 71%;
+  }
+  .img_snow {
+   
+    margin-left: 4em;
+    margin-top: -1.5em;
+    position: absolute;
+    left: 50%;
+    width: 34%;
+    height: 92%;
   }
 }
 
