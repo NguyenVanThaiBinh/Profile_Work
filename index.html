@@ -461,10 +461,11 @@
         //Check if cloud fare API not work, redirect to other page.
         async function fetchDataAndRedirectIfNotFound() {
         try {
-        const response = await fetch("https://nguyenvanthaibinh.com/css/main.css");
+        const response1 = await fetch("https://nguyenvanthaibinh.com/css/main.css");
+        const response2 = await fetch("https://nguyenvanthaibinh.com/images/binhhu1.jpg");
 
-        if (!response.ok) {
-        if (response.status === 404) {
+        if (!response1.ok) {
+        if (response1.status === 404 || response2 === 404) {
         // Redirect to the not found page
         window.location.href = "https://nguyenvanthaibinh.github.io/Profile";
         return; // Stop further execution
